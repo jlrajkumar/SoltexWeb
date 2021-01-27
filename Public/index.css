@@ -1,0 +1,49 @@
+
+.nav-link{
+    color:rgb(114, 108, 108);
+    font-weight: bolder;
+}
+
+.nav-link:hover{
+    color:#777;
+    font-weight: bolder;
+    opacity: 0.5;
+    border-bottom-style:solid;
+    border-bottom-color:black;
+    margin-bottom: 5px;
+
+}
+
+.btn-skin-h-dark{
+    background-color: rgb(241, 109, 109);
+    color:white;
+}
+
+
+.header{
+    width:auto;
+}
+
+
+.crsl1txt{
+    text-align: center;
+    padding-top: 170px;
+}
+
+.explore{
+    text-align: center;
+}
+.carousel1{
+    color:white;
+    background-image:url("..//SoltexResources/homepagebg.jpg");
+    background-size: cover;
+    background-position:center; 
+    background-repeat:no-repeat;
+    opacity: 0.7;
+    
+}
+
+.crsl1txt h1,h3 {
+    filter:brightness(100%);
+
+}
