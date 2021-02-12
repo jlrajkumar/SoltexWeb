@@ -96,35 +96,40 @@ footer{
     float: right;
 }
 
-#imgthumbs{
-    text-align: center;
-
-}
 
 #imgthumbs img{
    
 	height: 200px;
 	width: 200px;
+    border-radius: 5px;
+
 }
 
+.img-thumbnail:hover{
+    -ms-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    transform: scale(1.3);
+
+    }
+
+
+
+.col-sm{
+text-align: center;
+}
+
+.col-sm img{
+float:right;
+}
 
 .row{
     padding: 120px 20px 50px 20px;
 }
 
-.imgcaption {
-
-padding:30 0 20 0;
-}
-
-.imgcaption p{
-    
-padding:30 0 50 0;
-
-}
-
-#caption{
-    padding:40px 20px;
+.imgcaption{
+    padding-top: 200px;
 }
 
 .btn-danger{
@@ -138,13 +143,9 @@ margin-top:20px;
   
 }
 
-.img-thumbnail:hover{
--ms-transform: scale(1.2);
--moz-transform: scale(1.2);
--webkit-transform: scale(1.2);
--o-transform: scale(1.2);
-transform: scale(1.2);
-}
+
+
+
 
 footer{
     margin-top: 140px;
@@ -183,8 +184,7 @@ font-size: 17.6px;
 .row img{
         max-width: 300px;
         max-height: 280px ;
-        padding:30px;
-        margin-right:80px;
+        margin-right:90px;
 }
 
 .row h4{
@@ -201,7 +201,7 @@ td h4{
     font-weight:bolder;
 }
 
-ul li{
+.row li{
     list-style-type: square;
     line-height: 20px;
     padding: 20px  0px 0px 10px;
@@ -229,3 +229,5 @@ address{
     padding-bottom: 300px;
    
 }
+
+::selection { background:#dd8b8b; }
