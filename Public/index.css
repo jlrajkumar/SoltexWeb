@@ -70,36 +70,12 @@
 
 }
 
-footer{
-    background-color: #242424;;
-    color: white;
-    padding:30px;
-    font-size: 1.2em;
-    line-height: 1.65;;
-   
-}
-
-
-
-
-.copyrts{
-    display:inline;
-    
-    
-}
-.copyrts a{
-    text-decoration: none;
-    color:silver;
-    letter-spacing: 1px;
-}
-
 #rss{
     float: right;
 }
 
 
 #imgthumbs img{
-   
 	height: 200px;
 	width: 200px;
     border-radius: 5px;
@@ -144,19 +120,22 @@ margin-top:20px;
   
 }
 
-
-
-
-
-footer{
+ footer{
     margin-top: 140px;
     color:#777;
    font-size:13.12px;
    font-weight:400;
    line-height: 21px;
+   color:silver;
+   bottom: 0;
+   text-decoration: none;
    letter-spacing: 1px;
-
+   padding:30px 20px 10px 20px;
+   background-color: #242424;
 }
+
+
+
 
 div h1,p, address{
     font-family: var(--bs-font-sans-serif);
@@ -179,9 +158,6 @@ color:#444444;
 font-size: 17.6px;
 }
 
-
-
-
 .row img{
         max-width: 300px;
         max-height: 280px ;
@@ -193,9 +169,7 @@ font-size: 17.6px;
     font-weight: bold;
     padding-top: 40px;
     color:black;
-    
-
-}
+   }
 
 
 td h4{
@@ -232,3 +206,89 @@ address{
 }
 
 ::selection { background:#dd8b8b; }
+
+
+
+.wrap-input100{
+   
+     padding:20px;
+      border-radius: 20px;
+}
+
+
+.wrap-input100 input,i,span,em,strong{
+    font-family: 'Source Sans Pro', sans-serif;
+   
+}
+
+input, textarea{
+    margin-left:30px;
+    resize:both;
+    border-radius: 5px;
+    border-width: 1.5px;
+    line-height: 25px;
+  
+}
+
+
+.contact100-form-btn{
+    background-color:rgb(133, 133, 133);
+    border-radius: 10px;
+    padding:2px 30px;
+    color:white;
+    font:20px;
+    font-family:'Source Sans Pro', sans-serif;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.container-contact100-form-btn button:hover{
+    background-color:#5cb85a;
+    opacity:0.7;
+    color:black;
+    font-weight: bold;
+}
+
+#msgcap{
+    color: rgb(115, 38, 238);
+    font-weight:bolder;
+    font-size: 1.5rem;
+    line-height: 10px;
+    font-family: 'Source Sans Pro', sans-serif;
+    padding-left:130px;
+    text-shadow: 2px 2px 8px rgb(166, 223, 233);
+   padding-bottom: 40px;;
+}
+
+#form {
+    background-color: ghostwhite;
+    height: auto;
+    width:1250px;
+    border-radius: 150px;
+    
+   margin-left: 8px;
+   padding-right: 40px;
+   
+}
+
+#form img{
+    padding: 180px 10px 100px  250px; 
+    width:500px;
+    border-radius:50px; 
+    height: 500px;
+}
+
+
+
+td .float-end{
+    padding-right: 230px;
+    padding-bottom: 30px;
+}
+
+td .float-start{
+    padding-left: 20px;
+}
+
+.formdetails {
+    padding-top:50px;
+}
